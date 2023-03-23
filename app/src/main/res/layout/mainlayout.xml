@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#216C24">
+
+        <Button
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@android:color/transparent"
+            android:onClick="call"
+            android:text="Calls"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@android:color/transparent"
+            android:onClick="chat"
+            android:textColor="#FFFFFF"
+            android:text="Chats"/>
+
+        <Button
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:background="@android:color/transparent"
+            android:onClick="contact"
+            android:textColor="#FFFFFF"
+            android:text="Contacts"/>
+
+
+    </LinearLayout>
+<!--    <ListView-->
+<!--        android:id="@+id/simpleListView"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:divider="@color/material_blue_grey_800"-->
+<!--        android:dividerHeight="1dp"-->
+<!--        android:footerDividersEnabled="false" />-->
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+</LinearLayout>
